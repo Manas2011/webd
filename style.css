@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhai+2&family=Neonderthaw&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhai+2&family=Cinzel:wght@600&family=Neonderthaw&family=Poppins&display=swap');
+
+:root{
+    --main-bg-color:#0b0c26;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+}
+header{
+    font-family: 'Akaya Telivigala', cursive;
+    height: 20vh;
+    background-attachment:scroll;
+}
+.logo img{
+    width: 50px;
+    padding: 0 70px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    height:15vh;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    margin: 0 100px 0 auto;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    padding:0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color:rgb(9, 247, 207);
+}
+.container1{
+    min-height:100vh;
+    background-image:url(/img/Survey_Corps_Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50vw 0;
+}
+.container1 .aot{
+    background-color: rgba(235, 236, 238, 0);
+    height:100vh;
+}
+
+.container1 .aot .heading{
+    color: rgb(18, 232, 240);
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 88px;
+    align-items: center;
+    font-size: 49px;
+}
+.container1 .aot h2{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 25vh;
+    align-items: center;
+    font-size: 82px;
+}
+.container1 .aot .seasons{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 15vh;
+}
+.container1 .aot .seasons a{
+    background-color: #0b0c2600;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border:2px solid aquamarine;
+    justify-content: center;
+    width: 30vw;
+    height: 10vh;
+    margin:0 2px;
+}
+.container1 .aot .content{
+    display: flex;
+    width: 50vw;
+    height:33vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+.container1 .aot .content p{
+    text-align: center;
+}
+footer{
+    height: 12vh;
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.heading{
+    color: rgb(196, 255, 245);
+    font-family: 'Cinzel', serif;
+    font-size: 100;
+}
+.container2{
+    min-height:100vh;
+    background-image:url(/img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0vw 0;
+}
+.container2 .aot{
+    background-color: rgba(235, 236, 238, 0);
+    height:100vh;
+}
+
+.container2 .aot .heading{
+    color: rgb(18, 232, 240);
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 88px;
+    align-items: center;
+    font-size: 49px;
+    margin: 0 0 auto auto;
+}
+.container2 .aot h2{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 25vh;
+    align-items: center;
+    font-size: 82px;
+    margin: 0 0 auto auto;
+}
+.container2 .aot .seasons{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 15vh;
+    margin: 0 0 auto auto;
+}
+.container2 .aot .seasons a{
+    background-color: #0b0c2600;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border:2px solid aquamarine;
+    justify-content: center;
+    width: 30vw;
+    height: 10vh;
+    margin:0 2px;
+}
+.container2 .aot .content{
+    display: flex;
+    width: 50vw;
+    height:33vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    margin: 0 0 auto auto;
+}
+.container2 .aot .content p{
+    text-align: center;
+}
+
